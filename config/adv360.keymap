@@ -79,11 +79,11 @@
 
         layer_Vim_Arrows {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans     &trans  &trans              &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans     &trans  &trans              &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                     &macro_new_zj_pane  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans     &trans  &trans              &trans  &trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &kp ENTER  &trans              &trans  &trans  &trans    &trans    &trans
+ &trans                &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
+ &trans  &macro_close_zj_pane  &trans  &trans  &trans  &trans            &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
+ &trans                &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                     &trans  &trans  &trans            &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+ &trans                &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &macro_new_zj_pane    &trans  &trans     &trans  &trans  &trans
+ &trans                &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans  &kp ENTER  &trans  &trans  &trans  &trans              &trans    &trans
             >;
         };
 
