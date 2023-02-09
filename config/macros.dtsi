@@ -1,36 +1,14 @@
-macro_close_zj_pane: macro_close_zj_pane{
+macro_hide_all_zj: macro_hide_all_zj{
 compatible = "zmk,behavior-macro";
-label = "macro_close_zj_pane";
+label = "macro_hide_all_zj";
 #binding-cells = <0>;
-bindings 
-    = <&macro_press &kp LEFT_CONTROL>
-    , <&macro_tap &kp G>
-    , <&macro_release &kp LEFT_CONTROL>
-    , <&macro_press &kp LEFT_CONTROL>
-    , <&macro_tap &kp P>
-    , <&macro_release &kp LEFT_CONTROL>
-    , <&macro_tap &kp X>
-    , <&macro_press &kp LEFT_CONTROL>
-    , <&macro_tap &kp G>
-    , <&macro_release &kp LEFT_CONTROL>
-    ;
+bindings = <&kp C>;
 };
-macro_new_zj_pane: macro_new_zj_pane{
+macro_show_all_zj: macro_show_all_zj{
 compatible = "zmk,behavior-macro";
-label = "macro_new_zj_pane";
+label = "macro_show_all_zj";
 #binding-cells = <0>;
-bindings 
-    = <&macro_press &kp LEFT_CONTROL>
-    , <&macro_tap &kp G>
-    , <&macro_release &kp LEFT_CONTROL>
-    , <&macro_press &kp LEFT_CONTROL>
-    , <&macro_tap &kp P>
-    , <&macro_release &kp LEFT_CONTROL>
-    , <&macro_tap &kp N>
-    , <&macro_press &kp LEFT_CONTROL>
-    , <&macro_tap &kp G>
-    , <&macro_release &kp LEFT_CONTROL>
-    ;
+bindings = <&kp A>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
