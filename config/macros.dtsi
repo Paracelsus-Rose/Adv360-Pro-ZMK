@@ -2,26 +2,86 @@ macro_close_zj_pane: macro_close_zj_pane{
 compatible = "zmk,behavior-macro";
 label = "macro_close_zj_pane";
 #binding-cells = <0>;
-bindings = <&kp B>;
+bindings 
+    = <&macro_press &kp LEFT_CONTROL>
+    , <&macro_tap &kp G>
+    , <&macro_release &kp LEFT_CONTROL>
+    , <&macro_press &kp LEFT_CONTROL>
+    , <&macro_tap &kp P>
+    , <&macro_release &kp LEFT_CONTROL>
+    , <&macro_tap &kp X>
+    , <&macro_press &kp LEFT_CONTROL>
+    , <&macro_tap &kp G>
+    , <&macro_release &kp LEFT_CONTROL>
+    ;
 };
 macro_new_zj_pane: macro_new_zj_pane{
 compatible = "zmk,behavior-macro";
 label = "macro_new_zj_pane";
 #binding-cells = <0>;
-bindings = <&kp C>;
+bindings 
+    = <&macro_press &kp LEFT_CONTROL>
+    , <&macro_tap &kp G>
+    , <&macro_release &kp LEFT_CONTROL>
+    , <&macro_press &kp LEFT_CONTROL>
+    , <&macro_tap &kp P>
+    , <&macro_release &kp LEFT_CONTROL>
+    , <&macro_tap &kp N>
+    , <&macro_press &kp LEFT_CONTROL>
+    , <&macro_tap &kp G>
+    , <&macro_release &kp LEFT_CONTROL>
+    ;
 };
 macro_hide_all_zj: macro_hide_all_zj{
 compatible = "zmk,behavior-macro";
 label = "macro_hide_all_zj";
 #binding-cells = <0>;
-bindings = <&mt LEFT_CONTROL G>, <&mt LEFT_CONTROL N>, <&kp H>, <&kp H>, <&kp H>, <&kp H>, <&kp L>, <&kp L>, <&kp L>, <&kp L>, <&mt LEFT_CONTROL G>;
+bindings 
+    = <&macro_press &kp LEFT_CONTROL>
+    , <&macro_tap &kp G>
+    , <&macro_release &kp LEFT_CONTROL>
+    , <&macro_press &kp LEFT_CONTROL>
+    , <&macro_tap &kp N>
+    , <&macro_release &kp LEFT_CONTROL>
+    , <&macro_tap &kp H>
+    , <&macro_tap &kp H>
+    , <&macro_tap &kp H>
+    , <&macro_tap &kp H>
+    , <&macro_tap &kp L>
+    , <&macro_tap &kp L>
+    , <&macro_tap &kp L>
+    , <&macro_tap &kp L>
+    , <&macro_press &kp LEFT_CONTROL>
+    , <&macro_tap &kp G>
+    , <&macro_release &kp LEFT_CONTROL>
+    ;
 };
 macro_show_all_zj: macro_show_all_zj{
 compatible = "zmk,behavior-macro";
 label = "macro_show_all_zj";
 #binding-cells = <0>;
-bindings = <&mt LEFT_CONTROL G>, <&mt LEFT_CONTROL N>, <&mt LEFT_SHIFT H>, <&mt LEFT_SHIFT H>, <&mt LEFT_SHIFT H>, <&mt LEFT_SHIFT H>, <&mt LEFT_SHIFT L>, <&mt LEFT_SHIFT L>, <&mt LEFT_SHIFT L>, <&mt LEFT_SHIFT L>, <&mt LEFT_CONTROL P>;
-};
+bindings 
+    = <&macro_press &kp LEFT_CONTROL>
+    , <&macro_tap &kp G>
+    , <&macro_release &kp LEFT_CONTROL>
+    , <&macro_press &kp LEFT_CONTROL>
+    , <&macro_tap &kp N>
+    , <&macro_release &kp LEFT_CONTROL>
+    , <&macro_press &kp LEFT_SHIFT>
+    , <&macro_tap &kp H>
+    , <&macro_tap &kp H>
+    , <&macro_tap &kp H>
+    , <&macro_tap &kp H>
+    , <&macro_tap &kp L>
+    , <&macro_tap &kp L>
+    , <&macro_tap &kp L>
+    , <&macro_tap &kp L>
+    , <&macro_release &kp LEFT_SHIFT>
+    , <&macro_press &kp LEFT_CONTROL>
+    , <&macro_tap &kp G>
+    , <&macro_release &kp LEFT_CONTROL>
+    ;
+};};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
