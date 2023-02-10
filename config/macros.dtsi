@@ -1,3 +1,15 @@
+macro_close_zj_pane: macro_close_zj_pane{
+compatible = "zmk,behavior-macro";
+label = "macro_close_zj_pane";
+#binding-cells = <0>;
+bindings = <&kp B>;
+};
+macro_new_zj_pane: macro_new_zj_pane{
+compatible = "zmk,behavior-macro";
+label = "macro_new_zj_pane";
+#binding-cells = <0>;
+bindings = <&kp C>;
+};
 macro_hide_all_zj: macro_hide_all_zj{
 compatible = "zmk,behavior-macro";
 label = "macro_hide_all_zj";
