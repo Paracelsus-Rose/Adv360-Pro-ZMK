@@ -35,11 +35,11 @@
         "&none",        "&none",        "&none",        "&none",        "&none",           "&none",                            "&none",       "&none",        "&none",        "&none",           "&none",        "&none",        "&none",                  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",   "&bl BL_INC",   "&bl BL_DEC", "&rgb_ug RGB_TOG",                       "&bl BL_TOG",       "&none",        "&none",   "&bl BL_TOG", "&rgb_ug RGB_TOG",   "&bl BL_INC",   "&bl BL_DEC",                  "&none",  "&none",  "&none"
     ], [
-       "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",    "&trans",             "&trans", "&trans", "&trans",             "&trans",
-       "&trans", "&macro_close_zj_pane", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",    "&trans", "&macro_show_all_zj", "&trans", "&trans",             "&trans",
-       "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                                    "&trans", "&trans", "&macro_hide_all_zj",           "&kp LEFT", "&kp DOWN", "&kp UP", "&kp RIGHT", "&trans", "&trans",
-       "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",    "&trans",             "&trans", "&trans", "&trans",             "&trans", "&macro_new_zj_pane",   "&trans", "&trans",    "&trans", "&trans", "&trans",
-       "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",            "&none", "&trans", "&trans", "&kp ENTER",             "&trans", "&trans", "&trans",             "&trans",             "&trans",   "&trans"
+       "&trans",        "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",    "&trans",             "&trans", "&trans", "&trans",             "&trans",
+       "&trans", "&macro_quotes", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",    "&trans", "&macro_show_all_zj", "&trans", "&trans",             "&trans",
+       "&trans",        "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                                    "&trans", "&trans", "&macro_hide_all_zj",      "&kp LEFT", "&kp DOWN", "&kp UP", "&kp RIGHT", "&trans", "&trans",
+       "&trans",        "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",    "&trans",             "&trans", "&trans", "&trans",             "&trans", "&macro_quotes",   "&trans", "&trans",    "&trans", "&trans", "&trans",
+       "&trans",        "&trans", "&trans", "&trans", "&trans", "&trans",            "&none", "&trans", "&trans", "&kp ENTER",             "&trans", "&trans", "&trans",             "&trans",        "&trans",   "&trans"
     ]
   ]
 }
