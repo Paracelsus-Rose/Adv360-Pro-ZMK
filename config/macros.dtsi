@@ -96,6 +96,7 @@ bindings
     , <&macro_press &kp LEFT_CONTROL>
     , <&macro_tap &kp G>
     , <&macro_release &kp LEFT_CONTROL>
+    ;
 };
 macro_zj_down: macro_zj_down{
 compatible = "zmk,behavior-macro";
@@ -111,6 +112,7 @@ bindings =
     , <&macro_press &kp LEFT_CONTROL>
     , <&macro_tap &kp G>
     , <&macro_release &kp LEFT_CONTROL>
+    ;
 };
 macro_zj_right: macro_zj_right{
 compatible = "zmk,behavior-macro";
@@ -126,6 +128,7 @@ bindings =
     , <&macro_press &kp LEFT_CONTROL>
     , <&macro_tap &kp G>
     , <&macro_release &kp LEFT_CONTROL>
+    ;
 };
 macro_zj_left: macro_zj_left{
 compatible = "zmk,behavior-macro";
@@ -141,6 +144,7 @@ bindings =
     , <&macro_press &kp LEFT_CONTROL>
     , <&macro_tap &kp G>
     , <&macro_release &kp LEFT_CONTROL>
+    ;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
